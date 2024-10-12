@@ -122,7 +122,7 @@ td, th {
 	overflow: hidden;
 	margin: 20px auto;
 }
-#canvas {
+#map {
 	width: 700px;
 	height: 500px;
 	align-items: center;
