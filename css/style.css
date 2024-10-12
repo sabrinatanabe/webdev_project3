@@ -120,6 +120,7 @@ td, th {
 	justify-content: center;
 	background-color: #F7D2EB;
 	overflow: hidden;
+	margin: 20px auto;
 }
 #canvas {
 	width: 700px;
@@ -127,5 +128,6 @@ td, th {
 	align-items: center;
 	justify-content: center;
 	background-color: #F9BBE6;
+	margin: 30px auto;
 	margin: 30px auto;
 }
