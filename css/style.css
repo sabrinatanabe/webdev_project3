@@ -116,6 +116,7 @@ td, th {
 	width: 850px;
 	height: 600px;
 	align-items: center;
+	justify-content: center;
 	background-color: #F7D2EB;
 	overflow: hidden;
 }
@@ -123,6 +124,7 @@ td, th {
 	width: 700px;
 	height: 500px;
 	align-items: center;
+	justify-content: center;
 	background-color: #F9BBE6;
 	margin: 30px auto;
 }
