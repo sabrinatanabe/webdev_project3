@@ -115,12 +115,12 @@ td, th {
 #wrapper {
 	width: 850px;
 	height: 600px;
-	background-color: #c00;
+	background-color: #F7D2EB;
 	overflow: hidden;
 }
 #canvas {
 	width: 700px;
 	height: 500px;
-	background-color: #ccc;
+	background-color: #F9BBE6;
 	margin: 30px auto;
 }
