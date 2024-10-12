@@ -1,8 +1,8 @@
 function initMap(){
 	//alert('it works');
-	var el=document.getElementById('canvas');
-	var myLocation=new google.maps.LatLng(41.835117, -87.627130);
-	var mapOptions= {
+	var el = document.getElementById('canvas');
+	var myLocation = new google.maps.LatLng(41.835117, -87.627130);
+	var mapOptions = {
 		center: myLocation,
 		zoom: 18,
 		mapTypeId: google.maps.MapTypeId.SATELLITE,
@@ -11,9 +11,9 @@ function initMap(){
 		}
 	};
 	
-	var myMap=new google.maps.Map(el, mapOptions);
+	var myMap = new google.maps.Map(el, mapOptions);
 	
-	var marker=new google.maps.Marker({
+	var marker = new google.maps.Marker({
 		position: myLocation,
 		map: myMap
 		animation: google.maps.Animation.DROP,
@@ -22,7 +22,7 @@ function initMap(){
 	
 	var contentString='<h1>Location</h1>';
 	
-	var infowindow=new google.maps.InfoWindow({
+	var infowindow = new google.maps.InfoWindow({
 			content: contentString
 		}) 
 		
