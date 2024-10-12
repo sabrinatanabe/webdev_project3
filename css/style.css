@@ -78,36 +78,36 @@ td, th {
 /* Media Queries */
 @media screen and (min-width: 600px) {
   body {
-  	text-align: center; /* Center the text for larger screens */
+  	text-align: center;
   }
   .container {
-  	width: 90%; /* Adjust container width */
+  	width: 90%;
   }
   h1 {
-  	font-size: 2.5rem; /* Slightly smaller header */
+  	font-size: 2.5rem;
   }
   #main-navbar ul {
-  	flex-direction: row; /* Horizontal navigation */
+  	flex-direction: row;
   }
   #main-navbar ul li {
-  	margin: 0 10px; /* Add spacing between nav items */
+  	margin: 0 10px;
   }
 }
 
 @media screen and (min-width: 900px) {
 	#main-header {
-  	font-size: 4rem; /* Larger header for big screens */
+  	font-size: 4rem;
   }
   #company-name {
-  	font-size: 40px; /* Bigger company name */
+  	font-size: 40px;
   }
   #main-navbar ul li a {
-  	padding: 15px 25px; /* Increase padding for larger buttons */
+  	padding: 15px 25px;
   }
   #main-content {
-  	font-size: 1.2rem; /* Increase font size for main content */
+  	font-size: 1.2rem;
   }
   .center {
-  	width: 70%; /* Wider images on larger screens */
+  	width: 70%;
   }
 }
