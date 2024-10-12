@@ -1,78 +1,113 @@
 td, th {
 	border: 1px solid;
-  }
-  
-#main-header	{
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7cd8+1,ff7cd8+34,fba6e1+96 */
-	background: linear-gradient(to bottom,  rgba(255,124,216,1) 1%,rgba(255,124,216,1) 34%,rgba(251,166,225,1) 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	text-align: center;
-	font-size: 3rem;
-	font-family: "Tangerine, serif";
 }
 
-#company-name	{
-	font-size: 30px;
+#main-header {
+  background: linear-gradient(to bottom, rgba(255,124,216,1) 1%, rgba(255,124,216,1) 34%, rgba(251,166,225,1) 96%);
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Tangerine", serif;
 }
 
-.container	{
-	width: 960px;
-	margin: 0 auto;
-	overflow: hidden;
+#company-name {
+  font-size: 30px;
 }
 
-#main-navbar	{
-	background-color: #F9BBE6;
-}  
-
-#navbar-container	{
-	width: 100%;
-	position: relative;
-	text-align: center;
-	font-family: "Lucida Console", "Courier New", "monospace";
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-#main-navbar	{
-	overflow: hidden;
+#main-navbar {
+  background-color: #F9BBE6;
 }
 
-#main-navbar ul	{
-	list-style-type: none;
+#navbar-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", "monospace";
+}
+
+#main-navbar {
+ overflow: hidden;
+}
+
+#main-navbar ul {
+  list-style-type: none;
 	margin: 0;
-	padding: 0;
-	display: inline-block;
-	display: flex;
-	justify-content: center; 
+  padding: 0;
+  display: inline-block;
+  display: flex;
+  justify-content: center; 
 }
 
-#main-navbar ul li a	{
-	display: block;
-	padding: 10px 20px;
-	color: #FFFAF0;
-	text-decoration: none;
-	font-family: "Lucida Console", "Courier New", "monospace";
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #FFFAF0;
+  text-decoration: none;
+  font-family: "Lucida Console", "Courier New", "monospace";
 }
 
-#main-navbar ul li a:hover	{
-	text-decoration: underline;
+#main-navbar ul li a:hover {
+  text-decoration: underline;
 }
 
-#content-wrapper	{
-	background-color: #FCEFF8;
+#content-wrapper {
+  background-color: #FCEFF8;
 }
 
-#main-navbar #onpage	{
-	background-color: #F7D2EB;
+#main-navbar #onpage {
+  background-color: #F7D2EB;
 }
 
-#main-content	{
-	font-family: "Lucida Console", "Courier New", "monospace";
-	margin-left: 5px;
+#main-content {
+  font-family: "Lucida Console", "Courier New", "monospace";
+  margin-left: 5px;
 }
 
-.center	{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%; 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
 }
-  
+
+/* Media Queries */
+@media screen and (min-width: 600px) {
+  body {
+  	text-align: center; /* Center the text for larger screens */
+  }
+  .container {
+  	width: 90%; /* Adjust container width */
+  }
+  h1 {
+  	font-size: 2.5rem; /* Slightly smaller header */
+  }
+  #main-navbar ul {
+  	flex-direction: row; /* Horizontal navigation */
+  }
+  #main-navbar ul li {
+  	margin: 0 10px; /* Add spacing between nav items */
+  }
+}
+
+@media screen and (min-width: 900px) {
+	#main-header {
+  	font-size: 4rem; /* Larger header for big screens */
+  }
+  #company-name {
+  	font-size: 40px; /* Bigger company name */
+  }
+  #main-navbar ul li a {
+  	padding: 15px 25px; /* Increase padding for larger buttons */
+  }
+  #main-content {
+  	font-size: 1.2rem; /* Increase font size for main content */
+  }
+  .center {
+  	width: 70%; /* Wider images on larger screens */
+  }
+}
