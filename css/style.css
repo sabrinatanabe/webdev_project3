@@ -113,6 +113,7 @@ td, th {
 }
 
 #wrapper {
+	display: flex;
 	width: 850px;
 	height: 600px;
 	align-items: center;
