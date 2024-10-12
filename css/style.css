@@ -121,6 +121,17 @@ td, th {
 	background-color: #F7D2EB;
 	overflow: hidden;
 	margin: 20px auto;
+	z-index: 1;
+}
+#wrapper {
+	width: 700px;
+	height: 500px;
+	align-items: center;
+	justify-content: center;
+	background-color: #F9BBE6;
+	margin: 30px auto;
+	margin: 30px auto;
+	z-index: 2;
 }
 #map {
 	width: 700px;
@@ -130,4 +141,4 @@ td, th {
 	background-color: #F9BBE6;
 	margin: 30px auto;
 	margin: 30px auto;
-}
+	z-index: 3;
